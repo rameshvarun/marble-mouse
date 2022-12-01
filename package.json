@@ -1,0 +1,47 @@
+{
+  "name": "marble-mouse",
+  "private": true,
+  "version": "0.4.3",
+  "author": {
+    "name": "Varun Ramesh",
+    "email": "varunramesh@live.com",
+    "url": "https://varunramesh.net/"
+  },
+  "dependencies": {
+    "cannon": "^0.6.2",
+    "chai": "^4.2.0",
+    "eventemitter3": "^4.0.7",
+    "howler": "^2.2.1",
+    "loglevel": "^1.7.1",
+    "mathjs": "^7.6.0",
+    "promise.any": "^2.0.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.133.1",
+    "velocity-animate": "^1.5.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --env.mode=dev",
+    "build": "rm -rf build/web/ && webpack --env.mode=prod",
+    "format": "prettier --write *.js 'src/**/*.{js,ts,tsx,html,css}'",
+    "typecheck": "tsc --noEmit",
+    "check-format": "prettier-check *.js 'src/**/*.{js,ts,tsx,html,css}'"
+  },
+  "devDependencies": {
+    "@types/cannon": "^0.1.4",
+    "@types/three": "^0.133.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ifdef-loader": "^2.1.5",
+    "prettier": "^1.14.3",
+    "prettier-check": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.4.5",
+    "typescript": "^4.1.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^4.2.1"
+  }
+}

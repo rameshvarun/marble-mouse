@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Archivo Black";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/ArchivoBlack-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Archivo-Regular.ttf") format("truetype");
+}
+
+html {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+
+  font-family: "Archivo", sans-serif;
+}
+
+#ui-area {
+  left: 0px;
+  right: 0px;
+  left: max(env(safe-area-inset-left), env(safe-area-inset-right));
+  right: max(env(safe-area-inset-left), env(safe-area-inset-right));
+}
+
+.xr-button {
+  outline: "none";
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  font-size: large;
+
+  font-family: "Archivo", sans-serif;
+}
+
+.play-course-button {
+  outline: "none";
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  font-size: large;
+
+  font-family: "Archivo Black", sans-serif;
+  -webkit-text-stroke: 0.05em black;
+
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.course-title {
+  font-family: "Archivo Black", sans-serif;
+  -webkit-text-stroke: 0.05em black;
+
+  font-size: 150%;
+}
+
+.menu-button {
+  outline: "none";
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+
+  font-family: "Archivo Black", sans-serif;
+
+  -webkit-text-stroke: 0.05em black;
+
+  margin: 10px;
+
+  font-size: 5.25vw;
+
+  cursor: pointer;
+}
+
+.pause-menu-title {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  -webkit-text-stroke: 0.05em black;
+  font-size: 7.5vw;
+}
+
+@media screen and (min-width: 800px) {
+  .menu-button {
+    font-size: 42px;
+  }
+
+  .pause-menu-title {
+    font-size: 60px;
+  }
+}
+
+button.selected {
+  background-color: #34cfff;
+  -webkit-text-stroke: 0.05em black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
