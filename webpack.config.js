@@ -66,10 +66,6 @@ const production = {
 };
 
 module.exports = env => {
-  if (!["prod", "dev"].includes(env.mode)) {
-    throw new Error(`Unexpected Mode: ${env.mode}`);
-  }
-
   if (env.mode === "prod") return merge(common(env), production);
   else if (env.mode === "dev") return merge(common(env), development(env));
   else {
