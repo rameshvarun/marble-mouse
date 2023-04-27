@@ -7,7 +7,7 @@
     <a href="https://varunramesh.itch.io/marble-mouse">[Play the game on Itch.io]</a>
 </p>
 
-This is the source release for Marble Mouse, a Super Monkey Ball-inspired physics game made in Three.js. It contains all the code and assets necessary to build and play the game. Please see the included `LICENSE` before making any modifications.
+This is the source release for Marble Mouse, a Super Monkey Ball-inspired physics game made in Three.js. It contains all the code and assets necessary to build and play the game. Please see the included `LICENSE` before making any modifications - this game is not open source.
 
 ## Build Instructions
 [NVM](https://github.com/nvm-sh/nvm) or a similar tool is a pre-requisite, since the game will not build with the newest version of Node.js.
