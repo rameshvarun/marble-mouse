@@ -3,8 +3,8 @@ copyright (c) Varun Ramesh. This license grants you the right to modify and
 redistribute the software under the following conditions.
 
 1. You may only redistribute the software in source form. You cannot
-   redistribute the software in a form that can run without Webpack and Node.js
-   installed separately on the target system.
+   redistribute the software in a form that can run without Webpack, Node.js
+   and other development dependencies installed separately on the target system.
 2. You may not modify or redistribute the software for monetary gain, either by
    selling the software or by placing advertisements in or around the software.
 3. The origin of this software must not be misrepresented. You must not claim
